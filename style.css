@@ -1,0 +1,144 @@
+@font-face {
+    font-family: myriad;
+    src: url('myriad-set-pro_text.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body {
+    background-color: #D3D3D3;
+    overflow: hidden;
+}
+
+#menubar {
+    height: 40px;
+    font-size: 24px;
+    background-color: black;
+}
+
+#menubar>ul>li {
+    height: 40px;
+    position: absolute;
+}
+
+#menubar>ul>li a {
+    color: white;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+#menu{
+    left: 26px;
+}
+
+#appleRecruitment{
+    left:50%;
+    margin-left: -70px;
+}
+
+#bellAndSearch{
+    right: 26px;
+}
+
+#bellAndSearch a{
+    display: inline;
+    margin-left: 15px;
+}
+
+a:hover {
+    color: aqua !important;
+}
+
+#popup {
+    height: 100vh;
+    background-color: black;
+    font-family: myriad;
+    color: white;
+}
+
+.displayNone {
+    display: none;
+}
+
+#popup>ul>li {
+    border-bottom: #535050 1px solid;
+    height: 50px;
+    font-size: 24px;
+    overflow: hidden;
+    line-height: 50px;
+}
+
+#popup>ul>li::before {
+    display: block;
+    content: "";
+    float: left;
+    height: 50px;
+    width: 7px;
+}
+
+.sign{
+    position: absolute;
+    right: 26px;
+}
+
+.text{
+    margin-left: 50px;
+}
+
+#popup i{
+    font-size: 24px;
+    line-height: 50px;
+}
+
+#Talent::before {
+    background-color: #33ECFF;
+}
+
+#Connection::before {
+    background-color: #FF3C33;
+}
+
+#Intelligence::before {
+    background-color: #FF9933;
+}
+
+#Workspace::before {
+    background-color: #D433FF;
+}
+
+#Insights::before {
+    background-color: #9FFF33;
+}
+
+#JA::before {
+    background-color: #918b7d;
+}
+
+#JA{
+    color: #808080;
+}
+
+.fa-chevron-down{
+    margin-left: 10px;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.content li {
+    color: #808080;
+    margin-left: 65px;
+    height: 40px;
+    font-size: 24px;
+    line-height: 40px;
+}
